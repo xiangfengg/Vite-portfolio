@@ -27,7 +27,8 @@ const Project = () => {
       id: 2,
       name: 'Portfolio',
       description: 'Portfolio',
-      sourceCodeLink: '#',
+      sourceCodeLink: 'https://github.com/xiangfengg/Vite-portfolio',
+      RenderLink: 'https://vite-portfolio-sage-alpha.vercel.app/',
       github: <FaGithub />,
       icons: [
         <Icon icon="logos:vitejs" />,
