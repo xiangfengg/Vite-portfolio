@@ -49,7 +49,19 @@ const Project = () => {
         <Icon icon="skill-icons:javascript" />,
 
       ]
-    }
+    },
+    {
+      id: 4,
+      name: 'Tableau visualization',
+      description: 'Tableau visualization',
+      sourceCodeLink: 'https://github.com/xiangfengg/Tableau-visualization-',
+      RenderLink: 'https://github.com/xiangfengg/Tableau-visualization-',
+      github: <FaGithub />,
+      icons: [
+        <Icon icon="logos:tableau-icon" />,
+
+      ]
+    },
   ];
 
   return (
