@@ -10,7 +10,11 @@ const Navbar = () => {
     { name: 'Home', href: '#', current: false },
     { name: 'Tools', href: '#tools', current: false },
     { name: 'Projects', href: '#projects', current: false },
+    { name: 'Resume', href: 'https://drive.google.com/file/d/1rYBPcXhiXKAwvp-eUbSlVyl5bzhSMSbO/view', current: false },
+
+
     { name: 'Contact', href: '#contact', current: false },
+
   ];
 
   const userNavigation = [

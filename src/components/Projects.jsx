@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
 import { FaGithub } from 'react-icons/fa';
-import project1Image from '../assets/movie.jpg';
+
 
 
 
@@ -9,11 +9,10 @@ const Project = () => {
   const projects = [
     {
       id: 1,
-      name: 'Project 1',
+      name: 'Ecommence',
       description: 'Ecommerce Website',
       sourceCodeLink: 'https://github.com/xiangfengg/Your-E-commence-Store',
       RenderLink: 'https://your-e-commence-store.onrender.com/',
-      image: project1Image,
       github: <FaGithub />,
       icons: [
         <Icon icon="devicon:react" />,
